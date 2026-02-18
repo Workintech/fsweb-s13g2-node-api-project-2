@@ -158,6 +158,7 @@ Veritabanındaki bir Yorum aşağıdaki yapıya sahiptir:
 
 - `npm run resetdb` komutunu çalıştırarak veritabanını sıfırlayabilirsiniz.
 - Postman veya HTTPie kullanarak çalışmanızı manuel olarak test edin.
+- Testleri çalıştırmadan önce proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
 - Otomatik testleri çalıştırmak için `npm test` komutunu kullanın.
 - Test skorlarını NextGen'e `npm run sendresults` komutu ile kaydedin.
 - Ek dosyalar oluşturabilirsiniz ancak **mevcut dosyaları veya klasörleri taşımayın veya yeniden adlandırmayın**.
