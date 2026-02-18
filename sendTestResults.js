@@ -3,7 +3,7 @@ const resultDetails = require("./ctrf/ctrf-report.json");
 
 (async () => {
   const userId = user.user_id;
-  const taskId = 178;
+  const taskId = 210;
   const { summary } = resultDetails.results;
 
   const score = (summary.passed / summary.tests).toFixed(2);
